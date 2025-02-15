@@ -1,0 +1,30 @@
+{
+  "name": "b10a12-server-side-mdtayef001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programming-Hero-Web-Course4/b10a12-server-side-mdtayef001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programming-Hero-Web-Course4/b10a12-server-side-mdtayef001/issues"
+  },
+  "homepage": "https://github.com/Programming-Hero-Web-Course4/b10a12-server-side-mdtayef001#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "stripe": "^17.5.0"
+  }
+}
