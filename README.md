@@ -67,7 +67,7 @@ Educate is a scholarship management system that allows students to search for su
 
 1. Install dependencies:
    ```sh
-   cd frontend
+   cd client
    npm install
    ```
 2. Create a `.env` file and add the required environment variables:
@@ -86,7 +86,7 @@ Educate is a scholarship management system that allows students to search for su
 
 1. Navigate to the backend folder:
    ```sh
-   cd backend
+   cd server
    ```
 2. Install dependencies:
    ```sh
