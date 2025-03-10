@@ -6,7 +6,9 @@ const imgUpload = async (imageData) => {
   formData.append("upload_preset", "educate");
 
   const { data } = await axios.post(
-    `https://api.cloudinary.com/v1_1/dxlagwetk/image/upload`,
+    `https://api.cloudinary.com/v1_1/${
+      import.meta.env.VITE_cloudinary_API_KEY
+    }/image/upload`,
     formData,
     {
       headers: {

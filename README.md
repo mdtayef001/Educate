@@ -1,14 +1,17 @@
 # Educate
 
 ## Purpose
+
 Educate is a scholarship management system that allows students to search for suitable universities and scholarships. Students can apply for scholarships directly through the system. The platform also includes role-based access, reviews, and administrative features for managing scholarships, users, and reviews.
 
 ## Live URL
+
 [Live Demo](https://educate-23aca.web.app/)
 
 ---
 
 ## Key Features
+
 - **Responsive Design**
 - **Search Scholarships**
 - **Apply for Scholarships**
@@ -23,6 +26,7 @@ Educate is a scholarship management system that allows students to search for su
 ## Tech Stack
 
 ### Frontend
+
 - **React.js** (UI Library)
 - **TailwindCSS** (Styling)
 - **DaisyUI** (UI Components)
@@ -38,6 +42,7 @@ Educate is a scholarship management system that allows students to search for su
 - **Swiper** (Image Sliders)
 
 ### Backend
+
 - **Express.js** (Backend Framework)
 - **MongoDB** (Database)
 - **JWT (JSON Web Tokens)** (Authentication & Authorization)
@@ -47,16 +52,19 @@ Educate is a scholarship management system that allows students to search for su
 ## Installation & Setup (Local Testing)
 
 ### Prerequisites
+
 - Node.js (Latest Version Recommended)
 - MongoDB (Local or Cloud Instance)
 
 ### Clone Repository
+
 ```sh
-  git clone https://github.com/yourusername/educate.git
-  cd educate
+  git clone https://github.com/mdtayef001/Educate.git
+  cd Educate
 ```
 
 ### Frontend Setup
+
 1. Install dependencies:
    ```sh
    cd frontend
@@ -66,6 +74,8 @@ Educate is a scholarship management system that allows students to search for su
    ```env
    VITE_API_URL=http://localhost:5000
    VITE_FIREBASE_API_KEY=your_firebase_api_key
+   VITE_cloudinary_API_KEY=you_api_key
+   VITE_PAYMENT_PK_KEY=your_stripe_pk_key
    ```
 3. Run the frontend:
    ```sh
@@ -73,6 +83,7 @@ Educate is a scholarship management system that allows students to search for su
    ```
 
 ### Backend Setup
+
 1. Navigate to the backend folder:
    ```sh
    cd backend
@@ -84,15 +95,12 @@ Educate is a scholarship management system that allows students to search for su
 3. Create a `.env` file and add:
    ```env
    PORT=5000
-   MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_secret_key
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_secret
+   DB_USER=your_mongodb_user_name
+   DB_PASS=your_mongodb_password
+   STRIPE_SK_KEY=your_stripe_sk_key
    ```
 4. Start the backend server:
    ```sh
    npm run dev
    ```
-
-
