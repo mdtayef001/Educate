@@ -41,7 +41,7 @@ const NavBar = () => {
   );
   return (
     <nav>
-      <div className="navbar lg:p-5  backdrop-filter backdrop-blur-lg bg-opacity-80">
+      <div className="navbar lg:py-10  backdrop-filter container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -110,7 +110,10 @@ const NavBar = () => {
               </ul>
             </div>
           ) : (
-            <Link to={"/login"} className="btn bg-[#4169e1] text-white">
+            <Link
+              to={"/login"}
+              className="btn border-none bg-[#4169e1] text-white hover:bg-[#3253b6]"
+            >
               Login
             </Link>
           )}

@@ -7,8 +7,8 @@ import ButtonCom from "../../components/ButtonCom";
 
 const NewsLatter = () => {
   return (
-    <section className="mb-20">
-      <div className="lg:flex justify-between">
+    <section className="lg:my-24 my-10">
+      <div className="lg:flex justify-between lg:mb-24 mb-10">
         <SectionTitle heading={"Our latest news & upcoming blog posts"} />
         <div className="hidden lg:flex">
           <ButtonCom text={"All Blog Post"} />

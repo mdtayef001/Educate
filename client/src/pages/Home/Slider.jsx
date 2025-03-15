@@ -6,7 +6,7 @@ import banner3 from "../../assets/banner/banner3.jpg";
 
 const Slider = () => {
   return (
-    <section className="rounded-r-2xl lg:mt-10 mt-5">
+    <section className="rounded-r-2xl lg:mt-24 mt-10">
       <Carousel
         showThumbs={false}
         autoPlay={true}

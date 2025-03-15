@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import { addUserToDB, imgUpload } from "../../api/utils";
 import Swal from "sweetalert2";
 import Loading from "../../components/Loading";
+import { IoArrowBack } from "react-icons/io5";
 
 const Signup = () => {
   const { user, createUser, updateUserProfile, loading } = useAuth();
@@ -58,6 +59,12 @@ const Signup = () => {
       </Helmet>
       <div className="min-h-screen flex  items-center justify-center bg-gray-100 dark:bg-[#1d232a] text-black dark:text-white">
         <div className="bg-white dark:bg-[#191e24]  shadow-lg rounded-lg p-8 w-full max-w-md">
+          <Link
+            to={"/"}
+            className="flex items-center mb-6 hover:text-[#4169e1]"
+          >
+            <IoArrowBack className="text-xl" /> Home
+          </Link>
           <h2 className="text-2xl font-bold text-center mb-6">
             Create Your Account <span className="wave">👋</span>
           </h2>

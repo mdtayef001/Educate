@@ -4,6 +4,7 @@ import useAuth from "../../hooks/useAuth";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { Helmet } from "react-helmet-async";
+import { IoArrowBack } from "react-icons/io5";
 
 const Login = () => {
   const { loginUser, user } = useAuth();
@@ -49,6 +50,12 @@ const Login = () => {
       </Helmet>
       <div className="min-h-screen flex  items-center justify-center bg-gray-100 dark:bg-[#1d232a] text-black dark:text-white">
         <div className="bg-white dark:bg-[#191e24]  shadow-lg rounded-lg p-8 w-full max-w-md">
+          <Link
+            to={"/"}
+            className="flex items-center mb-6 hover:text-[#4169e1]"
+          >
+            <IoArrowBack className="text-xl" /> Home
+          </Link>
           <h2 className="text-2xl font-bold text-center mb-6">
             Sign in to Your Account <span className="wave">👋</span>
           </h2>
@@ -136,7 +143,7 @@ const Login = () => {
           <GoogleBtn />
           <p className="text-center text-sm text-gray-500 mt-6">
             Don’t have an account?{" "}
-            <Link to={"/signup"} className="text-blue-600 hover:underline">
+            <Link to={"/signup"} className="text-[#4169e1] hover:underline">
               Sign Up for free
             </Link>
           </p>

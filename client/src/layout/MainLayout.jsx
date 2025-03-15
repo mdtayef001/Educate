@@ -4,11 +4,11 @@ import NavBar from "../shared/Navbar";
 
 const MainLayout = () => {
   return (
-    <div className="container mx-auto text-black dark:text-white">
-      <header className="sticky top-0 z-50 ">
+    <div className=" text-black dark:text-white">
+      <header className="sticky top-0 z-50  backdrop-blur-lg bg-opacity-80">
         <NavBar />
       </header>
-      <main>
+      <main className="container mx-auto">
         <Outlet />
       </main>
       <footer>

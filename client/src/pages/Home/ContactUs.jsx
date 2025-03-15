@@ -4,9 +4,9 @@ import { FaClock } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
 const ContactUs = () => {
   return (
-    <section className="lg:mb-20 mb-10">
+    <section className="lg:my-24 mb-10">
       <SectionTitle heading={"Contact us"} />
-      <div className="lg:flex justify-between gap-6 mt-10 lg:mt-20 lg:p-10 p-5 border rounded-lg">
+      <div className="lg:flex justify-between gap-6 mt-10 lg:mt-24 lg:p-10 p-5 border rounded-lg">
         <div className="flex-1 mb-5 lg:mb-0">
           <div className="mb-5 text-center lg:text-left">
             <h2 className="lg:text-4xl text-2xl font-bold  lg:mb-5 mb-2">
