@@ -104,3 +104,12 @@ Educate is a scholarship management system that allows students to search for su
    ```sh
    npm run dev
    ```
+   
+## Testing
+
+- **gamil:admin@gmail.com**
+- **password:T@ayef9600**
+- **gamil:moderator@gmail.com**
+- **password:T@ayef9600**
+- **gamil:user@gmail.com**
+- **password:T@ayef9600**
